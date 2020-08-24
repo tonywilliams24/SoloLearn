@@ -1,5 +1,5 @@
 package hardItsASign;
-
+ 
 import java.util.Scanner;
 
 public class ItsASign
