@@ -9,6 +9,63 @@ public class ConvertUSDateToEUDate
 
 	public static void main(String[] args) 
 	{
+		
+		
+//		  Convert US date to EU date
+//		  
+//		  Problem:
+//		  You and your friends are going to Europe! You have made plans to travel
+//		  around Europe with your friends, but one thing you need to take into account
+//		  so that everything goes according to play, is that the format of their date
+//		  is different than from what is used in the United States. Your job is to
+//		  convert all your dates from MM/DD/YYYY to DD/MM/YYYY.
+//		  
+//		  Task:
+//		  Create a function that takes in a string containing a date that is in
+//		  US format, and return a string of the same date converted to EU.
+//		  
+//		  Input Format:
+//		  A string that contains a date formatting 11/19/2019 or November 19, 2019.
+//		  
+//		  Output Format:
+//		  A string of the same date but in a different format: 19/11/2019.
+//		  
+//		  Sample Input:
+//		  7/26/2019
+//		  
+//		  Sample Output:
+//		  26/7/2019
+		 
+		
+		
+		System.out.println("Convert US date to EU date\n" + 
+				"\n" + 
+				"Problem:\n" + 
+				"You and your friends are going to Europe! You have made plans to travel\n" + 
+				"around Europe with your friends, but one thing you need to take into account\n" + 
+				"so that everything goes according to play, is that the format of their date\n" + 
+				"is different than from what is used in the United States. Your job is to\n" + 
+				"convert all your dates from MM/DD/YYYY to DD/MM/YYYY.\n" + 
+				"\n" + 
+				"Task:\n" + 
+				"Create a function that takes in a string containing a date that is in\n" + 
+				"US format, and return a string of the same date converted to EU.\n" + 
+				"\n" + 
+				"Input Format:\n" + 
+				"A string that contains a date formatting 11/19/2019 or November 19, 2019.\n" + 
+				"\n" + 
+				"Output Format:\n" + 
+				"A string of the same date but in a different format: 19/11/2019.\n" + 
+				"\n" + 
+				"Sample Input:\n" + 
+				"7/26/2019\n" + 
+				"\n" + 
+				"Sample Output:\n" + 
+				"26/7/2019\n" + 
+				"\n" +
+				"****************************************************************************\n");
+		
+		System.out.println("Input date formatted as shown above:");
 		Scanner in = new Scanner(System.in);
 		String str = in.nextLine();
 		String[] arr = str.split("[\\s,./]+");
@@ -35,7 +92,7 @@ public class ConvertUSDateToEUDate
 			UStoEU(arr);
 		}
 		String EU = String.join("/", arr);
-		System.out.println(EU);
+		System.out.println("\nEU Date:\n" + EU);
 	}
 	static String[] UStoEU(String[] date)
 	{
