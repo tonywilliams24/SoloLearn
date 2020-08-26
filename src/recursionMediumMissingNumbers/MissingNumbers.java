@@ -69,6 +69,7 @@ public class MissingNumbers
 				"\n" +
 				"****************************************************************************\n");
 		
+		System.out.println("Please input as described above:");
 		
 		Scanner in = new Scanner(System.in);
 		int len = in.nextInt();
