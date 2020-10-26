@@ -1,6 +1,5 @@
 # SoloLearn
-
-SoloLearn (Mobile App Only) Coding Challenges
+ - SoloLearn (Mobile App Only) Coding Challenges
  - Most of the code is saved only in the app, but I copied some to an IDE to upload here
  - 64 Total Solutions Completed
     - 18 C++ ("Intermediate" and "Easy")
